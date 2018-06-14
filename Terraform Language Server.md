@@ -9,3 +9,6 @@ The terraform language server will be published in Visual Studio Code as an exte
 
  - **Language Intelligence**- Including syntax highlighting, **autocompletion**, **intelligent recommendation**, goto definition, find references and etc.
  - **Command Integration**- Including simple commands which can directly deploy resources in popular cloud platform such as aws, azure, google cloud and so on.
+ -
+
+![](https://github.com/zunlihu/Terraform-Language-Server/blob/master/images/System%20Architecture.png)
