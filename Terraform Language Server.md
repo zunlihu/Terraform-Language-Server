@@ -8,11 +8,11 @@ There is no full-featured language server protocol for terraform files,e.g. .tf 
 
 The terraform language server will be published in Visual Studio Code as an extension tool. The extension mainly work in two aspects:
 
- - **Language Intelligence**- Including syntax highlighting, **autocompletion**, **intelligent recommendation**, goto definition, find references and etc.
+ - **Language Intelligence**- Including syntax highlighting, **auto-completion**, **intelligent recommendation**, goto definition, find references and etc.
  - **Command Integration**- Including simple commands which can directly deploy resources in popular cloud platform such as aws, azure, google cloud and so on.
  
 
-![Failed to load image](https://github.com/zunlihu/Terraform-Language-Server/blob/master/images/System%20Architecture.png "System Architecture")
+![System Architecture image](https://github.com/zunlihu/Terraform-Language-Server/blob/master/images/System%20Architecture.png "System Architecture")
 
 ## Language Intelligence
 
@@ -28,7 +28,7 @@ Auto-completion can be seen as the several parts:
 ![](https://github.com/zunlihu/Terraform-Language-Server/blob/master/images/terraform-auto-completion.gif)
 
 ### Intelligent recommendation
-Through parsing the .tf files to AST, abstract the program code to sentences. Try popular RNN or other deep learning methods to capture the contect information in the code and then recommend the resources/modules users want to user.
+Through parsing the .tf files to AST, abstract the program code to sentences. Try popular RNN or other deep learning methods to capture the context information in the code and then recommend the resources/modules users want to user.
 
 The ML process can be seen as nlp, just showed as follows. 
 
@@ -36,8 +36,13 @@ The ML process can be seen as nlp, just showed as follows.
 
 **important problem:**
 
-1. How to get AST?
-2. How to use AST?
+1. How to get AST? HCL parser
+2. How to use AST? 
+3. How to get enough data source?
+  - data scraping
+  - 
+
+
 3. baseline: frequency
 4. improve: ML(key: find enough data source and suitable algorithm)
 5. consider future improvement with more users and data source.
