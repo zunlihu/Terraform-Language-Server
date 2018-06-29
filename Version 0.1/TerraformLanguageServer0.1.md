@@ -10,16 +10,16 @@ When you just type "", the language server can recommend a list of resource/data
 
 - Resource types Completion
 
-![](https://github.com/zunlihu/Terraform-Language-Server/blob/master/images/Version%200.1/resourceCompletion.png)
+![](https://github.com/zunlihu/Terraform-Language-Server/blob/master/Version%200.1/images/resourceCompletion.png)
 
 - Data types Completion
 
-![](https://github.com/zunlihu/Terraform-Language-Server/blob/master/images/Version%200.1/dataCompletion.PNG)
+![](https://github.com/zunlihu/Terraform-Language-Server/blob/master/Version%200.1/images/dataCompletion.PNG)
 
 ### Half Completion
 With the user continuing to type in the editor, the server will filter unrelated types, but the remaining list still in the recommended order.
 
-![](https://github.com/zunlihu/Terraform-Language-Server/blob/master/images/Version%200.1/halfCompletion.png)
+![](https://github.com/zunlihu/Terraform-Language-Server/blob/master/Version%200.1/images/halfCompletion.png)
 
 ## Implementation Details
 ### Data Sources
