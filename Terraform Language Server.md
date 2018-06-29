@@ -40,12 +40,9 @@ The ML process can be seen as nlp, just showed as follows.
 2. How to use AST? 
 3. How to get enough data source?
   - data scraping
-  - 
-
-
-3. baseline: frequency
-4. improve: ML(key: find enough data source and suitable algorithm)
-5. consider future improvement with more users and data source.
+4. baseline: frequency
+5. improve: ML(key: find enough data source and suitable algorithm)
+6. consider future improvement with more users and data source.
 
 ### Syntax highlighting
 ![](https://github.com/zunlihu/Terraform-Language-Server/blob/master/images/screenshot.png)

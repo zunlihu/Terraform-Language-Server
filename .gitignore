@@ -1,0 +1,7 @@
+
+.vscode
+
+*.tf
+*.txt
+*.json
+*.npy
