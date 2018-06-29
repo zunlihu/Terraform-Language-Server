@@ -19,8 +19,8 @@ When you just type "", the language server can recommend a list of resource/data
 ### Half Completion
 With the user continuing to type in the editor, the server will filter unrelated types, but the remaining list still in the recommended order.
 
-![](https://github.com/zunlihu/Terraform-Language-Server/blob/master/Version%200.1/images/halfCompletion.png)
-
+![](https://github.com/zunlihu/Terraform-Language-Server/blob/master/Version%200.1/images/halfCompletion1.PNG)
+![](https://github.com/zunlihu/Terraform-Language-Server/blob/master/Version%200.1/images/halfCompletion2.PNG)
 ## Implementation Details
 ### Data Sources
 428894 .tf files from GitHub.
