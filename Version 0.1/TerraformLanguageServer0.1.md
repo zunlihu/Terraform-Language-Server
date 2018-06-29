@@ -31,11 +31,15 @@ Through frequency statistics, the resources and data types usage frequency can b
 
 **Note:**To get valid statistic result, we have to consider the comment in the data file. For example, # and /*...*/.
 
-- Word Cloud
+- Resources
 
-- Bar
+![](https://github.com/zunlihu/Terraform-Language-Server/blob/master/dataSource/data_count/images/res_wordCloud.png)
+![](https://github.com/zunlihu/Terraform-Language-Server/blob/master/dataSource/data_count/images/resNums.png)
 
+- Data Types
 
+![](https://github.com/zunlihu/Terraform-Language-Server/blob/master/dataSource/data_count/images/data_wordCloud.png)
+![](https://github.com/zunlihu/Terraform-Language-Server/blob/master/dataSource/data_count/images/dataNums.png)
 
 ### Apply to VS Code
-VS Code have a lot of API for extentionbility.
+VS Code have a lot of APIs for extentionbility. For example, vscode.completionItem is used to achieve auto-completion. 
