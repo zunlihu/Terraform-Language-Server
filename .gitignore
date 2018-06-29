@@ -7,10 +7,3 @@
 *.json
 *.npy
 =======
-.vscode
-
-.tf
-.txt
-.json
-.npy
->>>>>>> 173137dea02f5522d8a50134922be2decd4ce644
