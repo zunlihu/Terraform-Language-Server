@@ -19,7 +19,7 @@ Therefore, there are two kinds of data spider designed in the project. One is ac
 #### GitHub API v3
 GitHub as an excellent code hosting platform, provides clear [API information](https://api.github.com/). 
 Related parameter settings and crawlable data information can be found in [GitHub Developer Guide](https://developer.github.com/v3/). 
-
+Generate token: https://github.com/settings/tokens
 Parameters used in our project:
 per_page: 100
 
