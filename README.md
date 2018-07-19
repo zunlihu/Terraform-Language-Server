@@ -37,7 +37,9 @@ Note:
 
 ### Run in command line
 ```python generateALLTypesJSON.py --save_path ${SAVE_PATH}```
+
 ```python generateALLTypesJSON.py --save_path ${SAVE_PATH}```
+
 ```python generateALLTypesJSON.py --save_path ${SAVE_PATH}```
 
 ### Products or Results
