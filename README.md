@@ -40,7 +40,7 @@ Note:
 ```python generateALLTypesJSON.py --save_path ${SAVE_PATH}```
 ```python generateALLTypesJSON.py --save_path ${SAVE_PATH}```
 
-### ### Products or Results
+### Products or Results
 - Generate JSON of different providers in separate files.
 - Generate log file.
 
