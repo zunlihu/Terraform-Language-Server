@@ -1,12 +1,17 @@
 # Terraform-Language-Server
+For terraform language server project, you can find it in Github URL  https://github.com/zunlihu/vscode-terraform and Jenkins job https://tfci.westus2.cloudapp.azure.com/job/vscode_terraform/.
+
+![](https://github.com/zunlihu/Terraform-Language-Server/blob/master/images/System%20Architecture.png)
+
+A quick guideline for **vscode-terraform extension** can be found in [UserGuide.md](https://github.com/zunlihu/Terraform-Language-Server/blob/master/UserGuide.md).
 
 During developing the vscode extension, there are some related projects to provide data support for the vscode-terraform extension, 
-including data source spider and etc. 
-These scripts also can be used in other project involving in data collection.
+including data source spider and etc. Note: **These scripts also can be used in other project involving in data collection.**
 
 These scripts can achieve the following functions:
 
-- Data Spider through API or URL source code.
+- Data Spider for GitHub.
+- Terraform JSON Generator.
 - Data Extractor for key words.
 - Data Analyzer to produce statistical result.
 
