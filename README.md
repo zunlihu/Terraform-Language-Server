@@ -38,17 +38,28 @@ Note:
 - Download target files.
 - Write the url of target files in ```url_list.txt```.
 
+## Terraform Code File Analyzor
+
+### Run in command line
+`python dataProcessor.py --save_path ${SAVE_PATH} --code_path ${CODE_PATH}`
+
+Note:${CODE_PATH} is the folder you place source code files.
+
+### Products or Results
+- Extract key words in code
+- Generate statistical results for code-recommendation
+
 ## Terraform JSON Generator
 
 ### Run in command line
-```python generateALLTypesJSON.py --save_path ${SAVE_PATH}```
+Resource and Data Types Info:
 
-```python generateALLTypesJSON.py --save_path ${SAVE_PATH}```
+```python generateALLTypesJSON.py --save_path ${SAVE_PATH} --run_opt ${RUN_OPT} --dataRanklist ${DATA_PATH} --resourceRanklist ${RESOURCE_PATH}```
 
-```python generateALLTypesJSON.py --save_path ${SAVE_PATH}```
+Modules Info:
+
+```python generateModulesJSON.py --save_path ${SAVE_PATH}```
 
 ### Products or Results
-- Generate JSON of different providers in separate files.
+- Generate resource, data and modules description of different providers in JSON.
 - Generate log file.
-
-## 
